@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const backendUrl = "http://localhost:8080/api/task";
+const backendUrl = "https://task-board-vmqp.onrender.com/api/task";
 
 export const getAllTasks = () => {
     return axios.get(backendUrl + "/getAllTasks");
